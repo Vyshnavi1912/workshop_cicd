@@ -9,8 +9,8 @@ def double_number(a):
     Returns:
         int : Double the number
     """
-    return a + a
-
+    print(f'value before double_number(): {a}')
+    return a+a
 
 def square_number(a):
     """
@@ -20,4 +20,5 @@ def square_number(a):
     Returns:
         int : Squares the number
     """
-    return a * a
+    print(f'value before double_number(): {a}')
+    return a*a
